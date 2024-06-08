@@ -3,3 +3,4 @@ langchain_community
 chromadb
 pypdf
 flask
+openai
