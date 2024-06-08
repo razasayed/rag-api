@@ -4,3 +4,6 @@ chromadb
 pypdf
 flask
 openai
+yt_dlp
+pydub
+tiktoken
