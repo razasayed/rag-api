@@ -52,7 +52,8 @@ def query_rag(query_text: str):
 
     qa_chain = RetrievalQA.from_chain_type(
         llm,
-        retriever=db.as_retriever()
+        retriever=db.as_retriever(),
+        chain_type="refine",
     )
 
     result = qa_chain({"query": query_text})
