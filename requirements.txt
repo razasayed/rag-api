@@ -7,3 +7,4 @@ openai
 yt_dlp
 pydub
 tiktoken
+pypdf2
